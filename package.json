@@ -1,0 +1,39 @@
+{
+  "name": "scratch-minifier",
+  "version": "1.0.0",
+  "description": "A program to minify your scratch program.",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli",
+    "test": "node src/cli \"test/TestProject.sb3\" \"test/TestProjectOutput.sb3\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steve-xmh/scratch-minifier.git"
+  },
+  "keywords": [
+    "scratch",
+    "minify",
+    "minifier"
+  ],
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Steve-xmh/scratch-minifier/issues"
+  },
+  "homepage": "https://github.com/Steve-xmh/scratch-minifier#readme",
+  "dependencies": {
+    "jszip": "^3.2.2",
+    "scratch-parser": "^5.0.0",
+    "scratch-vm": "^0.2.0-prerelease.20191227164934"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
