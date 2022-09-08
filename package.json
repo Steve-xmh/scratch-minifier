@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Steve-xmh/scratch-minifier#readme",
   "dependencies": {
-    "jszip": "^3.2.2",
+    "jszip": "^3.7.0",
     "scratch-parser": "^5.0.0",
     "scratch-vm": "^0.2.0-prerelease.20191227164934"
   },
